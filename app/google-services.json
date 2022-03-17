@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98111002784",
+    "project_id": "scanme-390be",
+    "storage_bucket": "scanme-390be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98111002784:android:9fdd23c99f251d5d3b51c5",
+        "android_client_info": {
+          "package_name": "ntu.n1043826.scanit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98111002784-p5rk0ctvv5c1o9r28v8542062i4483cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAdoansLlzxzqeeLdp6O5KKIWMLrKJ9co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98111002784-p5rk0ctvv5c1o9r28v8542062i4483cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

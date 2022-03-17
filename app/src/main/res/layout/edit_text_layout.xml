@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/layout_info"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_weight=".5"
+        android:textColorHint="@android:color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="100"
+        android:paddingTop="5dp"
+        app:counterTextAppearance="@style/counterText"
+        app:counterOverflowTextAppearance="@style/counterOverride"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <EditText
+
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:id="@+id/title"
+        android:hint="Title"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_weight="2.2"
+android:layout_marginBottom="10dp"
+        android:textColorHint="@android:color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="1000"
+        android:id="@+id/username_text_input_layout"
+        app:counterTextAppearance="@style/counterText"
+        app:counterOverflowTextAppearance="@style/counterOverride"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:gravity="start"
+
+            android:textDirection="firstStrongLtr"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            android:background="@drawable/border"
+            android:textColor="@android:color/white"
+            android:inputType="textMultiLine"
+            android:id="@+id/description"
+            android:hint="Description"
+            android:textSize="20sp"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
